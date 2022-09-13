@@ -5,3 +5,7 @@
 html {
 	@apply font-abel
 }
+
+body.noscroll {
+	overflow-y: hidden;
+}

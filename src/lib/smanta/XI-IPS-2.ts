@@ -13,7 +13,7 @@ export function XI_IPS_2(s: Schedules) {
 		.addSubject(35, "11:45", "Istirahat", null)
 		.addSubject(40, "12:20", "Sejarah Peminatan", "Galih Adi Nata")
 		.addSubject(40, "13:00")
-		.addSubject(40, "13:40", "SBK", "Teguh")
+		.addSubject(40, "13:40", "SBK", "Teguh P.")
 		.addSubject(40, "14:20")
 		.create("XI IPS 2", 2)
 		.addSubject(45, "07:00", "Ekonomi", "Lili P.")

@@ -5,8 +5,10 @@
 	import Navbar from "$lib/components/Navbar.svelte"
 </script>
 
-<Navbar />
-<div class="min-h-screen p-4 bg-gray-50">
-	<slot/>
+<div class="relative">
+	<Navbar />
+	<div class="relative min-h-screen p-4 bg-gray-50">
+		<slot/>
+	</div>
+	<Footer />
 </div>
-<Footer />

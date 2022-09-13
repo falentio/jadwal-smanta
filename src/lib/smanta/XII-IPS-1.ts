@@ -56,7 +56,7 @@ export function XII_IPS_1(s: Schedules) {
 		.addSubject(40, "14:20")
 		.create("XII IPS 1", 5)
 		.addSubject(45, "07:00", "Kegiatan Jumat", null)
-		.addSubject(45, "07:40", "SBK", "Teguh")
+		.addSubject(45, "07:40", "SBK", "Teguh P.")
 		.addSubject(45, "08:25")
 		.addSubject(45, "09:10", "Sejarah", "Susiani")
 		.addSubject(15, "09:55", "Istirahat", null)

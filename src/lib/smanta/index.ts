@@ -24,7 +24,6 @@ X_IPS_1(smantaSchedules)
 X_IPS_2(smantaSchedules)
 
 XI_MIPA_1(smantaSchedules)
-XI_MIPA_1(smantaSchedules)
 XI_MIPA_2(smantaSchedules)
 XI_MIPA_3(smantaSchedules)
 XI_IPS_1(smantaSchedules)

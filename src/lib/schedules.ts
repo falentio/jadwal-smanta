@@ -53,6 +53,9 @@ export class Schedules {
 	availableTeacher(): string[] {
 		const set = new Set()
 		for (const subject of this.subjects) {
+			if (subject.teacher === null) {
+				continue;
+			}
 			set.add(subject.teacher)
 		}
 		return [...set]
