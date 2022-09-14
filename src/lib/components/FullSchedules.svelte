@@ -13,7 +13,6 @@
 		.sort((a, b) => {
 			const aDate = parse(a.startAt, "HH:mm", new Date())
 			const bDate = parse(b.startAt, "HH:mm", new Date())
-			console.log({ aDate, bDate })
 			return aDate > bDate ? 1 : -1
 		})
 
@@ -33,7 +32,7 @@
 	}
 </script>
 
-<section class="flex flex-col flex-wrap justify-center w-full md:w-2/3 mx-auto bg-sky-300 ring-1 ring-black">
+<section class="flex flex-col flex-wrap justify-center w-full mx-auto bg-sky-300 ring-1 ring-black">
 	<div class="text-xl md:text-2xl font-bold text-center flex-row flex justify-between items-center my-2">
 		<button on:click={() => addDay(-1)} class="text-4xl md:text-6xl">
 			<Icon icon="carbon:chevron-left" />
