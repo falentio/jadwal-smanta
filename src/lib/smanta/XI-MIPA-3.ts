@@ -50,7 +50,7 @@ export function XI_MIPA_3(s: Schedules) {
 		.addSubject(45, "10:15", "Matematika Peminatan", "Dzakiya Q.")
 		.addSubject(45, "11:00")
 		.addSubject(35, "11:45", "Istirahat", null)
-		.addSubject(40, "12:20", "Bahasa Inggris", "M. Mutholib")
+		.addSubject(40, "12:20", "Bahasa Inggris", "A. Mutholib")
 		.addSubject(40, "13:00")
 		.addSubject(40, "13:40", "Matematika", "Tri A.")
 		.addSubject(40, "14:20")

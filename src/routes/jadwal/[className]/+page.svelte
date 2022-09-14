@@ -6,7 +6,7 @@
 	import FullSchedules from '$lib/components/FullSchedules.svelte'
 	export let data
 	export let currentDate = new Date()
-	let simple = true
+	let simple = false
 	let more = false
 	$: currentSchedules = data.schedules.filter(i => currentDate.getDay() === i.day)
 </script>
