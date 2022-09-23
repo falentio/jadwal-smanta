@@ -17,10 +17,10 @@
 		.map(i => Array.from(i))
 </script>
 
-<div class="flex flex-row flex-wrap justify-center md:w-2/3 mx-auto px-2">
+<ul class="grid grid-cols-2 md:grid-cols-3 auto-rows-fr justify-center w-max mx-auto px-2">
 	{#each weekday as i (i)}
 		{@const schedule = _schedules[i] || []}
-		<div class="w-1/2 md:w-1/3 shrink-0 md:text-xl flex flex-col">
+		<li class="md:text-xl flex flex-col">
 			<section class="m-1 p-2 h-full rounded-md flex flex-col">
 				<h2 
 					class="text-xl md:text-3xl font-bold bg-sky-500 w-max px-2 rounded-md pb-8 shadow-xl"
@@ -41,9 +41,9 @@
 					<li></li>
 				</ul>
 			</section>
-		</div>
+		</li>
 	{/each}
-</div>
+</ul>
 
 <style>
 	ul > li.text-sm .over {
